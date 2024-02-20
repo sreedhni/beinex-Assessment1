@@ -36,7 +36,6 @@ try:
 
     result = matrix_multiply(a, b)
     print("\nResultant Matrix:")
-    for row in result:
-        print(row)
+    print(result)
 except ValueError as e:
     print(f"Error: {e}")
